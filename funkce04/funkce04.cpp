@@ -37,9 +37,10 @@ int main()
     cout << "Zadejte c: ";
     cin >> c;
     diskriminant = vypocetDiskriminantu(a, b, c);
-    koreny(a, b, diskriminant, x1, x2);
+   
     if (diskriminant > 0)
     {
+        koreny(a, b, diskriminant, x1, x2);
         cout << "\nKoren x1 je: " << x1;
         cout << "\nKoren x2 je: " << x2;
     }
